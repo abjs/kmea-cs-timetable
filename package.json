@@ -7,7 +7,7 @@
     "serve": "vite preview",
     "commit": "cz",
     "prepare": "husky install",
-    "release": "standard-version",
+    "release": "standard-version &&  git push --follow-tags origin main",
     "deploy": "tsc && vite build && netlify deploy --prod"
   },
   "dependencies": {
