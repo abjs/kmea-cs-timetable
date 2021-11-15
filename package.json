@@ -1,0 +1,31 @@
+{
+  "name": "cs-online-class-timetable",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "commit": "cz",
+    "prepare": "husky install",
+    "release": "standard-version"
+  },
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^14.1.0",
+    "@commitlint/config-conventional": "^14.1.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@vitejs/plugin-react": "^1.0.0",
+    "autoprefixer": "^10.4.0",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.4",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19",
+    "typescript": "^4.3.2",
+    "vite": "^2.6.4"
+  }
+}
