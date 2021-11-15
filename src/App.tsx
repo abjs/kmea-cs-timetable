@@ -3,7 +3,7 @@ function App() {
   const meetLink = {
     cg: {
       name: "Computer Graphics",
-      shortName: "cd",
+      shortName: "cg",
       link: "https://meet.google.com/jen-rhoj-sgi",
       courseCode: "CS401",
     },
@@ -39,7 +39,7 @@ function App() {
     },
     sp: {
       name: "Seminar & Project Preliminary",
-      shortName: "",
+      shortName: "s/p",
       link: "",
       courseCode: "CS451",
     },
@@ -112,7 +112,9 @@ function App() {
                         data-tooltip-target="tooltip-default"
                         className="capitalize text-blue-600  md:hidden"
                       >
-                        {shortName} {courseCode}
+                        {shortName}
+                        {/* @ts-ignore */}
+                        {/* {courseCode} */}
                       </p>
                     </a>
                     <TooltipComponent message={name} />
